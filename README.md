@@ -1,1 +1,1 @@
-# losCarnalas
+# los-carnalas-nextjs
