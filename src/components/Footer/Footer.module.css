@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Center align the icons */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-top: 1px solid #ddd; /* Subtle border for separation */
+    margin-top: 15vh;
+  }
+  
+  .socialIcon {
+    width: 70px;
+    height: 63px;
+    margin: 0 8px;
+    border-radius: 25%; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  

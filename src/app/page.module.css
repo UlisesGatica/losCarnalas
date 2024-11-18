@@ -1,0 +1,93 @@
+.middleHome {
+  display: flex;
+  padding: 1% 10% 0 10%;
+  justify-content: space-between;
+}
+
+.middleLeftHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 50vw;
+  background-color: #ffffff; /* Subtle background for contrast */
+  padding: 20px;
+  
+}
+
+.headingTwo {
+  font-size: 1.8rem;
+  color: yellowgreen;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.addressLink {
+  font-size: 1.2rem;
+  color: #0070f3; /* Blue link color */
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.addressLink:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.timeOpenContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.hoursHeading {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hoursList {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.hoursList li {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.middleRightHome {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.headingTwo {
+  font-size: 1.8rem;
+  color: yellowgreen;
+  margin-bottom: 15px;
+}
+
+.aboutParagraph,
+.cateringParagraph {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.contactLink {
+  color: #0070f3; /* Blue link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactLink:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}

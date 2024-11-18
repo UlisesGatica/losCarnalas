@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background-color: #ffffff; /* Light background */
+    
+  }
+  
+  .linkContainer {
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+  .linkContainer a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .linkContainer a:hover {
+    color:rgb(154, 205, 50); /* Hover color */
+  }
+  
+  .imagelogo {
+    width: 15vw; /* 30% of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container */
+  }
+  
