@@ -1,0 +1,118 @@
+
+
+.topMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+  }
+  
+  .proteins,
+  .drinks {
+    border: 5px dotted yellowgreen;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .proteins h2 {
+    text-align: center;
+    margin: 5px;
+    color: yellowgreen;
+  }
+  
+  
+  .protein {
+    display: flex;
+    margin-bottom: 6px
+  }
+  
+  .drinks h2 {
+    text-align: center;
+    margin: 5px;
+    color: yellowgreen;
+  }
+  
+  .drink {
+    display: flex;
+    margin-bottom: 6px
+  }
+  
+  .foodOptions h2 {
+    text-align: center;
+  }
+  
+  .foodOptions img {
+    width: 40vh;
+  }
+  
+  .entreeBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  h2,h3{
+    color: yellowgreen;
+  }
+  
+  .entreeBox > div {
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  .entreeBox h3 {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .entreeContent {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .entreeContent p {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .entreeContent img {
+    width: 40vh;
+    margin: 10px;
+  }
+  
+  .tacos, .tortas, .burritos, .quesadillas, .quesabirrias {
+    border: 5px dotted yellowgreen;
+  }
+  
+  /* Mobile Specific Styles */
+  @media (max-width: 500px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .bigLogo {
+      order: 0;
+      margin-bottom: 10px;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 5px 10px;
+      order: 1;
+    }
+  
+    .linkContainer {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      order: 1;
+    }
