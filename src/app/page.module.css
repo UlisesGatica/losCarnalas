@@ -1,3 +1,4 @@
+
 .middleHome {
   display: flex;
   padding: 1% 10% 0 10%;
@@ -91,3 +92,31 @@
   color: #0056b3; /* Darker blue on hover */
   text-decoration: underline;
 }
+
+
+  @media (max-width: 500px) {
+
+  
+    .middleHome {
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .middleLeftHome {
+      padding-right: 0;
+    }
+  
+    .middleLeftHome p {
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .middleLeftHome,
+    .middleRightHome {
+      flex: none;
+      width: 100%;
+    }
+  
+  }
