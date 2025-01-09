@@ -93,27 +93,53 @@
 
 /* Mobile Specific Styles */
 @media (max-width: 500px) {
-  .nav {
+  .topMenu {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 0;
+  }
+
+  .proteins,
+  .drinks {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+  }
+
+  .protein,
+  .drink {
     flex-direction: column;
     align-items: center;
+  }
+
+  .protein p,
+  .drink p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .foodOptions {
     padding: 0;
   }
 
-  .bigLogo {
-    order: 0;
-    margin-bottom: 10px;
+  .entreeBox {
+    flex-direction: column;
+    padding: 0;
   }
 
-  .nav a {
-    display: inline-block;
-    margin: 5px 10px;
-    order: 1;
-  }
-
-  .linkContainer {
-    display: flex;
-    justify-content: space-around;
+  .entreeBox > div {
+    flex: none;
     width: 100%;
-    order: 1;
+    margin: 10px 0;
+  }
+
+  .entreeContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .entreeContent img {
+    width: 100%;
   }
 }

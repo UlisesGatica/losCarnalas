@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
+
 import styles from './page.module.css';
 
 
@@ -37,7 +36,7 @@ export default function Home() {
           Welcome to our flavorful world at Los Carnales! Delight in the authentic taste of Mexico crafted by two brothers, Carmelo and Floriberto Gatica, seasoned veterans in the restaurant industry, with a combined experience of over 20+ years. Join us on this thrilling culinary journey as we bring our passion for Mexican cuisine to life!
         </p>
         <p className={styles.aboutParagraph}>
-          Indulge in a fiesta of flavors at Los Carnales where every dish tells a story steeped in tradition and culinary expertise. Carmelo and Floriberto Gatica's deep-rooted knowledge and dedication to creating an unforgettable dining experience shine through each delectable bite. Join us as we infuse every meal with the rich heritage and vibrant spirit of Mexico, inviting you to savor the true essence of our culture in every meticulously crafted dish.
+          {`Indulge in a fiesta of flavors at Los Carnales where every dish tells a story steeped in tradition and culinary expertise. Carmelo and Floriberto Gatica's deep-rooted knowledge and dedication to creating an unforgettable dining experience shine through each delectable bite. Join us as we infuse every meal with the rich heritage and vibrant spirit of Mexico, inviting you to savor the true essence of our culture in every meticulously crafted dish.`}
         </p>
         <h2 className={styles.headingTwo}>Catering</h2>
         <p className={styles.cateringParagraph}>
