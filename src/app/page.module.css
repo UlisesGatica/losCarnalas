@@ -30,6 +30,8 @@
   text-decoration: none;
   margin-bottom: 20px;
   transition: color 0.3s ease;
+  padding-left: 31px; 
+  margin: 0 auto; 
 }
 
 .addressLink:hover {
